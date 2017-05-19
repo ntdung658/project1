@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0B71121ECC567F00954482 /* hinhnen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A0B71111ECC567F00954482 /* hinhnen.jpg */; };
 		8A5B35921ECC4162000EDFAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B35911ECC4162000EDFAC /* AppDelegate.swift */; };
 		8A5B35941ECC4162000EDFAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B35931ECC4162000EDFAC /* ViewController.swift */; };
 		8A5B35971ECC4162000EDFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5B35951ECC4162000EDFAC /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A0B71111ECC567F00954482 /* hinhnen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hinhnen.jpg; path = ../../../IMG/hinhnen.jpg; sourceTree = "<group>"; };
 		8A5B358E1ECC4162000EDFAC /* foody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foody.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5B35911ECC4162000EDFAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A5B35931ECC4162000EDFAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A0B71101ECC564400954482 /* IMG */ = {
+			isa = PBXGroup;
+			children = (
+				8A0B71111ECC567F00954482 /* hinhnen.jpg */,
+			);
+			name = IMG;
+			sourceTree = "<group>";
+		};
 		8A5B35851ECC4162000EDFAC = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		8A5B35901ECC4162000EDFAC /* foody */ = {
 			isa = PBXGroup;
 			children = (
+				8A0B71101ECC564400954482 /* IMG */,
 				8A5B35911ECC4162000EDFAC /* AppDelegate.swift */,
 				8A5B35931ECC4162000EDFAC /* ViewController.swift */,
 				8A5B35951ECC4162000EDFAC /* Main.storyboard */,
@@ -193,6 +204,7 @@
 				TargetAttributes = {
 					8A5B358D1ECC4162000EDFAC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DV4M3M7VN8;
 					};
 					8A5B35A11ECC4162000EDFAC = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -229,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0B71121ECC567F00954482 /* hinhnen.jpg in Resources */,
 				8A5B359C1ECC4162000EDFAC /* LaunchScreen.storyboard in Resources */,
 				8A5B35991ECC4162000EDFAC /* Assets.xcassets in Resources */,
 				8A5B35971ECC4162000EDFAC /* Main.storyboard in Resources */,
@@ -401,7 +414,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = foody/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vms.foody;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,7 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = foody/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vms.foody;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +501,7 @@
 				8A5B35B81ECC4162000EDFAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A5B35B91ECC4162000EDFAC /* Build configuration list for PBXNativeTarget "foodyTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +510,7 @@
 				8A5B35BB1ECC4162000EDFAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A5B35BC1ECC4162000EDFAC /* Build configuration list for PBXNativeTarget "foodyUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +519,7 @@
 				8A5B35BE1ECC4162000EDFAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
